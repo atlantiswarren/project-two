@@ -11,6 +11,8 @@ nav {
   background-color: black;
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
+  font-size: medium;
 }
 
 li {
@@ -50,4 +52,59 @@ p {
 
 .logo {
   max-height: 4rem;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  max-width: 30rem;
+  gap: 2rem;
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+
+.coalsection h1 {
+  text-align: center;
+  color: #f3bb01;
+}
+
+.coalsection iframe {
+  margin-left: 12rem;
+  margin-top: 3rem;
+}
+
+.coalsection h2 {
+  text-align: justify;
+  margin-left: 9rem;
+  color: #f3bb01;
+  font-size: medium;
+}
+
+.coalsection p {
+  text-align: justify;
+  max-width: 58ch;
+  margin-left: 57rem;
+  margin-top: -23rem;
+}
+
+.question h2 {
+  text-align: left;
+  /* margin-left: 3rem; */
+  border: 1px;
+  border-style: solid;
+  background: #f3bb01;
+  max-width: 100%;
+  height: fit-content;
+}
+.tone {
+  margin-top: 4rem;
+}
+
+.question {
+  padding-left: 12rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.question > * {
+  grid-column: 3/10;
 }
