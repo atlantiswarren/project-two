@@ -134,3 +134,23 @@ p {
   margin-top: -48rem;
   color: aliceblue;
 }
+.electrical h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #f3bb01;
+}
+
+.electrical iframe {
+  margin-left: 12rem;
+  margin-top: 3rem;
+}
+.electrical h2 {
+  color: goldenrod;
+  margin-right: 48rem;
+}
+.electrical p {
+  text-align: justify;
+  max-width: 58ch;
+  margin-left: 57rem;
+  margin-top: -23rem;
+}
